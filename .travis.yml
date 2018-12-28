@@ -1,0 +1,15 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t rwoj/docker-react -f Dockerfile.dev .
+
+script:
+  - docker run rwoj/docker-react npm run test -- --coverage
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: $HEROKU_KEY
+
