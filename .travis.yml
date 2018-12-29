@@ -7,6 +7,5 @@ script:
 - docker run rwoj/docker-react npm run test -- --coverage
 deploy:
   provider: heroku
-  app: docker-react
   api_key:
     secure: YbkSAJb3R1YMW+8slR2ckpwx9XGqQ6xLj01ZmaUxbNbU8DSBAHEOkY6hFlOm4Cy+vTz8BNDYsAvCP8ihRjHGbhRSYaENy3uOJSK7DbsnVNmB0QyAWOpOKQVSJLTnwbi4p61DWDDKa94EF9o8sbFDAZ3/gdM5t5kArBSMZgfWk6DBGe86n/FHIN4BRnunW0XnwtkYPDvo4U0l6kE3SCpY9wXYeorrW0nOFRHs2lNN7EbCRbJ/5NyTnUjZZHFfSNYEEKJAEuS81HviRrIVNzZ/Fh7YSjZ9dzwaOnkluiTEe8N5B+NLAIngETLgF9K6rHqDTAxF1749SdW6Alcgvhv2N/5wtC0BGUgfOwqKK8nisIViizJc6eubB/7C4teai6V+0aDXuaKRlCDNBtMOTDlxcBC9uy6dtlcwuUrI5tzfJRlGQym1jyyN8PYlyvSU/s1kmFiUbLQYzfjRYDq0MMso8A+Quw7t49iPk+ia7284UdMh66461sqh/wy7viMKlJ2+opJZfadFnx+hWTR3kYaqOruv4KrCXyKWOLD/HCOJcL7Nq7Z8hlAk+80MTeaRVDfx7g/FMfiRNXyxU8en+HCx/lsn4ebnzRSxB6UgFIX6cOI30a52NrtE3ncp/b8KwuR+uJAhdQce5p5um9JtdDfEqvgn5CG5/AOtipPYLDoakJE=
